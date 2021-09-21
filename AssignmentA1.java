@@ -83,15 +83,15 @@ class AssignmentA1 {
         //Initializing Variables----------------------------------------------------------------------------------------------
         final double r=2;
         final double g1=3;
-        final int gn=3;
+        final int gk=3;
         double gsum;
         
         //Calculating the sum----------------------------------------------------------------------------------------------------
-        gsum = g1*((1-Math.pow((double)r,gn))/(1-(double)r));
+        gsum = g1*((1-Math.pow((double)r,gk))/(1-(double)r));
         
         //Printing the Answer
         System.out.println("SUM OF A FINITE GEOMETRIC SERIES");
-        System.out.println("The sum of the first "+gn+" terms of a finite geometric series that starts with "+g1);
+        System.out.println("The sum of the first "+gk+" terms of a finite geometric series that starts with "+g1);
         System.out.println("and increases by a rate of "+r+" is "+gsum);
         System.out.println();
         

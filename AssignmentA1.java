@@ -5,7 +5,7 @@
 class AssignmentA1 {
     public static void main (String[] args) {
         //Quadratic Formula
-        //Quadratic Formula Variables--------------------------------------------------------------------------------------------
+        //Initializing Variables--------------------------------------------------------------------------------------------
         final int a = 1;
         final int b = 5;
         final int c = 6;
@@ -84,11 +84,7 @@ class AssignmentA1 {
         final double r=2;
         final double g1=3;
         final int gn=3;
-        double gfinal;
         double gsum;
-        
-        //Calculating final term-------------------------------------------------------------------------------------------------
-        gfinal = g1*Math.pow((double)r,(gn-1));
         
         //Calculating the sum----------------------------------------------------------------------------------------------------
         gsum = g1*((1-Math.pow((double)r,gn))/(1-(double)r));
